@@ -1,92 +1,93 @@
-<!DOCTYPE html> 
-<html lang="pt-br"> 
-<head> 
-<meta charset="UTF-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<title>Dj Reginho!!</title> 
-<!-- CSS Bootstrap --> 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Font Awesome para ícones --> 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"> <style> 
-body{
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DJ Reginho - O Brabo dos Fluxos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
 
-width: 100vw;    
-height: 100vh;
-background-image: url(fundo\ do\ site.png);
-background-image:no-repeat;
+    .hero-section {
+      background-image: url(imagem\ fundo.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+      color: white;
+    }
 
-background-size: auto;
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero-section h1 {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+
+    .hero-section p {
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="logo111.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="videos.html">Videos</a></li>
+          <li class="nav-item"><a class="nav-link" href="proximos shows.html">Agenda</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/djreginhooficial/?locale=us&hl=am-et">Instagram</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://api.whatsapp.com/send/?phone=5535988872613&text=Ol%C3%A1%21+gostaria+de+contratar+o+Dj+Reginho%21%21&type=phone_number&app_absent=0">Contrate</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- videos 1-->
+  <section class="hero-section">
+    <div class="overlay">
+   
+    </div>
+  </section>
 
 
 
-}
-.service-card { 
-transition: transform 0.3s; 
-height: 100%; 
-} 
-.service-card:hover { 
-transform: translateY(-10px); 
-} 
-.feature-icon { 
-width: 70px; 
-height: 70px; 
-border-radius: 50%; 
-display: flex; 
-align-items: center; 
-justify-content: center; 
-margin-bottom: 1rem; 
-} 
-.team-member img { 
-border-radius: 50%;
-width: 150px; 
-height: 150px; 
-object-fit: cover; 
-margin-bottom: 1rem; 
-} 
-footer { 
-background-color: #212529; 
-color: white; 
-} 
-</style> 
-</head> 
-<body> 
-    <header> 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> 
-        <div class="container"> 
-        <a class="navbar-brand fw-bold" href="#">Inicio</a> 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> <span class="navbar-toggler-icon"></span> 
-        </button> 
-         <div class="collapse navbar-collapse" id="navbarNav"> 
-        <ul class="navbar-nav ms-auto"> 
-        
-        <li class="nav-item"> 
-        <a class="nav-link" href="https://www.instagram.com/djreginhooficial/reels/">Shows</a> 
-        </li>  <li class="nav-item"> 
-            <a class="nav-link" href="https://www.instagram.com/djreginhooficial/">Instagram</a> 
-            </li>
-            <li class="nav-item"> 
-            <a class="nav-link" href="https://www.instagram.com/djreginhooficial/">Youtube</a> 
-            </li> 
-        
-        <div class="collapse navbar-collapse" id="navbarNav"> 
-            <ul class="navbar-nav ms-auto"> 
-            <li class="nav-item"> 
-            <a class="nav-link active" href="https://w.app/djreginho">Contato</a> 
-            </li> 
-        </ul> 
-        </div> 
-        </div> 
-        </nav> 
-        </header> 
-        <section class="hero-section text-center"> 
-            <div class="container"> 
-            <h1 class="display-3 fw-bold mb-4">
-                
-            
-            
-            
-            </h1> 
+  
 
-            </div> 
-            </div> 
-            </section> 
-           
+
+  <footer>
+    © 2025 DJ Reginho - Todos os direitos reservados.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
